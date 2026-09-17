@@ -32,7 +32,7 @@ async def stats_cmd(client, message: Message):
     )
 
 
-@registry.on(MessageHandler, filters.command("broadcast") & admin_filter)
+@registry.on(MessageHandler, filters.command("Subroad2136") & admin_filter)
 async def broadcast_cmd(client, message: Message):
     lang = await mongo.get_lang(message.from_user.id)
     if not message.reply_to_message:
