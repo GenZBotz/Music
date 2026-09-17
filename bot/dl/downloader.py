@@ -253,7 +253,7 @@ class MediaDownloader:
         caption = title or ""
         if artist:
             caption += f"\n{artist}"
-        caption += "\n\n@ArcUpdates"
+        caption += "\n\n@GenZBotz"
         return caption
 
     async def _fetch_and_prepare(
