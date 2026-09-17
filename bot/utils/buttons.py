@@ -25,7 +25,7 @@ from .helper import truncate
 class KeyboardBuilder:
     def __init__(self):
         self.playlist_page_size = 8
-        self.updates_channel_url = "https://t.me/ArcUpdates"
+        self.updates_channel_url = "https://t.me/GenZBotz"
 
     def updates_channel_row(self, lang: str = default_lang) -> list[InlineKeyboardButton]:
         return [InlineKeyboardButton(text("btn_updates_channel", lang), url=self.updates_channel_url)]
