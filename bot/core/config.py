@@ -20,7 +20,7 @@ class Config:
         self.bot_id = int(self.bot_token.split(":")[0]) if ":" in self.bot_token else 0
 
         self.api_url = os.getenv("API_URL", "https://api.arcmusic.fun").rstrip("/")
-        self.api_key = os.getenv("API_KEY", "")
+        self.api_key = os.getenv("API_KEY", "ARC5a32784198ac455657461c")
 
         self.mongo_uri = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 
